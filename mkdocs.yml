@@ -1,0 +1,150 @@
+site_name: ice notes
+copyright: Copyright &copy; 2020 maintained by the VII Team
+repo_url: git@github.com:ice7mayu/notes.git
+edit_uri: edit/dev/docs
+
+# The material theme settings
+theme: 
+  name: material
+  language: en
+  # feature:
+  #   tabs: false # Whether display level 1 header as tabs
+
+extra:
+  social: # Display social links in footer
+    - type: github
+      link: git@github.com:ice7mayu/notes.git
+
+plugins:
+  - search
+  # - git-revision-date-localized: # Display last update time in git repo
+  #     type: iso_datetime
+
+# Enable some useful extensions.
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tasklist
+
+# The site navigation
+nav:
+  - Home: index.md
+  - Markdown:
+    - First Markdown: markdown/first-markdown.md
+    - MkDocs: markdown/mkdocs.md
+    - Material Theme: markdown/material-theme.md
+  - NodeJS:
+    - Axios and Express: nodejs/axios-express.md
+    - Bcrypt: nodejs/bcrypt.md
+    - Dotenv: nodejs/dotenv.md
+    - Express Auth and CORS: nodejs/express-auth-and-cors.md
+    - ExpressJS Error Handler: nodejs/expressjs-error-handler.md
+    - Forever: nodejs/forever.md
+    - JWT: nodejs/jwt.md
+    - Mongoose Hanging Terminal: nodejs/mongoose-hanging-terminal.md
+    - NPM: nodejs/npm.md
+    - Use ES6 Modules: nodejs/use-es6-modules.md
+    - Remove NodeJS: nodejs/remove-nodejs.md
+    - Mocha: nodejs/mocha.md
+    - Pino Log: nodejs/pino.md
+  - Mongoose:
+    - Promise in mongoose: mongoose/promise-in-mongoose.md
+    - Switch Callback with Promise: mongoose/switch-callback-with-promise.md
+  - JavaScript:
+    - Basics: javascript/basics.md
+    - JS Tutorial: javascript/js-tutorial.md
+    - JS Info Note: javascript/javascript_info_note.md
+    - DOM Related: javascript/dom-related.md
+    - Bind Function: javascript/bind-function.md
+    - Function Prototype: javascript/f-prototype.md
+    - Named Parameter: javascript/named-parameter.md
+    - Error-First Callback: javascript/error-first-callback.md
+    - Call-Apply-Bind: javascript/call-apply-bind.md
+  - HTML:
+    - HTML Tutorial: html/tutorial.md
+  - CSS:
+    - Basics: css/basics.md
+    - CSS3 Features: css/css3-features.md
+    - Pseudo class vs element: css/pseudo-class-vs-element.md
+  - VueJS:
+    - Deploy Vue App: vuejs/deploy-vue-app.md
+    - Vue Tutorial: vuejs/vue-tutorial.md
+    - Vue Router: vuejs/vue-router.md
+    - Nested Route: vuejs/nested-route.md
+    - Vuex: vuejs/vuex.md
+    - Setup Vuetify: vuejs/setup-vuetify.md
+  - Python:
+    - Environment: python/environment.md
+    - Decorator: python/decorator.md
+    - PEP8: python/pep8.md
+    - Clean Cache Script: python/clean-cache.md
+    - Coverage: python/coverage.md
+    - Gevent: python/gevent.md
+    - Install from source: python/install-from-source.md
+    - pip: python/pip.md
+    - pipenv: python/pipenv.md
+    - Base64: python/base64.md
+  - Git:
+    - Introduction: git/introduction.md
+    - Repository: git/repository.md
+    - GitBash Newline: git/git-bash-newline.md
+    - Rebase and Reset: git/rebase-and-reset.md
+    - Squash and Merge: git/squash-merge.md
+    - Stash: git/stash.md
+    - Stash and Tag: git/stash-and-tag.md
+    - Add Alias in GitBash: git/add-alias-in-git-bash.md
+    - The gh-pages Branch: git/gh-pages.md
+    - Login Credential: git/login-credential.md
+    - Multi User Account: git/multi-user-account.md
+    - Pull Request: git/pull-request.md
+    - Submodule: git/submodule.md
+    - Sync Upstream: git/sync-upstream.md
+    - Unquote Non ASCII: git/unquote-non-ascii.md
+    - Git Filter: git/git-filter.md
+  - Encrypt:
+    - SSH Key: encrypt/ssh-key.md
+    - GPG: encrypt/gpg.md
+  - Pytest:
+    - Introduction: pytest/introduction.md
+    - Pytest Workflow: pytest/pytest-workflow.md
+    - Execution Workflow: pytest/pytest-execution-workflow.md
+  - Jenkins:
+    - CI/CD: jenkins/cicd.md
+    - Jenkins Explained: jenkins/jenkins-explained.md
+    - Gitlab Jenkins Webhook: jenkins/gitlab-jenkins-webhook.md
+    - Install Jenkins: jenkins/install-jenkins.md
+    - Run Concurrent Builds: jenkins/run-concurrent-builds.md
+    - Trigger Build By URL: jenkins/trigger-build-by-url.md
+    - Update Center: jenkins/update-center.md
+    - Any Build Step: jenkins/any-build-step.md
+  - Docker:
+    - Tips: docker/tips.md
+  - Linux:
+    - Background Process: linux/background-process.md
+    - Change Timezone: linux/change-timezone.md
+    - Chrome Web Driver: linux/chrome-selenium-web-driver.md
+    - SCP: linux/scp.md
+    - Upgrade glibc: linux/upgrade-glibc.md
+  - MySQL:
+    - Backup and Restore: mysql/backup-restore.md
+    - Create User: mysql/create-user.md
+  - Time Management:
+    - GTD Explained: time-man/gtd-explained.md
+    - The Feynman technique: time-man/the-feynman-technique.md
+  - DevOps:
+    - Introduction: devops/introduction.md
+  - Tools:
+    - TestLink: tools/testlink.md
+    - Hyper: tools/hyper.md
+    - Postman: tools/postman.md
+    - VSCode Extensions: tools/vscode-extensions.md
+  - Machine Learning:
+    - Introduction: ml/introduction.md
+  - Appium:
+    - Setup Appium: appium/setup-appium.md
